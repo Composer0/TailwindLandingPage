@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../dist/output.css" />
     <title>Tailwind Website</title>
 </head>
-<body class="bg-white text-black dark:bg-slate-900 dark:text-white">
+<body class="text-black dark:bg-slate-900 dark:text-white">
 
 <!-- ml = margin left mx = margin auto -->
 
@@ -19,7 +19,7 @@
         <div class="flex items-center justify-between">
             <!-- Logo -->
             <div class="pt-2">
-                <img src="../img/logo.svg" alt="logo">
+                <img src="../img/logo-white.svg" alt="logo">
             </div>
             <!-- Menu Items -->
             <!-- md:flex after hidden allows for the links on the nav bar to be hidden unless they meet the requirements for the screen size. This design pattern is mobile first. -->
@@ -204,6 +204,44 @@
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="bg-veryDarkBlue">
+        <!-- Flex Container -->
+        <div class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:spac-y-0">
+            <!-- Logo and Social Links Container -->
+            <div class="flex flex-col reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
+                <!-- Logo -->
+                <div>
+                    <img src="../img/logo-white.svg" class="h-8" alt="logo" />
+                </div>
+                <!-- Social Links Container -->
+                <div class="flex justify-center space-x-4">
+                    <!-- Link 1 -->
+                    <a href="#">
+                        <img src="../img/icon-facebook.svg" alt="" class="h-8" />
+                    </a>
+                    <!-- Link 2 -->
+                    <a href="#">
+                        <img src="../img/icon-youtube.svg" alt="" class="h-8" />
+                    </a>
+                    <!-- Link 3 -->
+                    <a href="#">
+                        <img src="../img/icon-twitter.svg" alt="" class="h-8" />
+                    </a>
+                    <!-- Link 4 -->
+                    <a href="#">
+                        <img src="../img/icon-pinterest.svg" alt="" class="h-8" />
+                    </a>
+                    <!-- Link 5 -->
+                    <a href="#">
+                        <img src="../img/icon-instagram.svg" alt="" class="h-8" />
+                    </a>
+                </div>
+            </div>
+            <!-- List Container -->
+        </div>
+    </footer>
 
 </body>
 </html>
