@@ -77,3 +77,16 @@
 .open .hamburger-bottom {
     transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
+
+/* sliding menu */
+
+/* #menu {
+    transition: all 0.5s;
+    opacity: 0;
+    transform: translateY(-100px);
+} */
+
+/* .menuStart {
+    opacity: 1;
+    transform: translateY(0px);
+} */
